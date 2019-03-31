@@ -5,13 +5,50 @@
     <title>Youtube</title>
     <link rel="stylesheet" href="css/main.css">
     <!-- Bootstrap -->
-    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="css/fontawesome.min.css">
-
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!-- Font -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
   </head>
   <body>
+
+    <header>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-2">
+            <a href="#"><img src="images/logo.png" class="img-responsive logo"></a>
+            <a href="#" id="menu-toggle"><img src="images/menu.png"></a>
+          </div> <!-- End logo and menu toggle -->
+
+          <div class="col-md-5">
+            <form class="search-bar"><input type="text" placeholder="Type to search..."></form>
+          </div> <!-- End Search bar -->
+
+          <div class="col-md-5">
+            <ul class="user-info">
+              <li><a href="#" class="button">Upload</a></li>
+              <li>
+                <ul class="notifications">
+                  <li><i class="fa fa-camera-retro"></i><span>1</span></li>
+                  <li><i class="fa fa-bell"></i><span>3</span></li>
+                </ul>
+              </li>
+              <li>
+                <img src="images/profile.png">
+                <div class="">
+                  <p class="username">John Doe</p>
+                  <p class="username">9 Subscribers</p>
+                  <a href="#">Log-Out</a>
+                </div>
+              </li>
+            </ul> <!-- End Ul -->
+          </div> <!-- End User Information -->
+
+        </div> <!-- End Row -->
+      </div> <!-- End Container-fluid -->
+    </header> <!-- End Header -->
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   </body>
 </html>
